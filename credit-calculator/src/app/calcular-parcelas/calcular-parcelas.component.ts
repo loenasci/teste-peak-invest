@@ -13,16 +13,7 @@ export class CalcularParcelasComponent {
 
 	constructor(private http: HttpClient) { }
 
-/*************  ✨ Codeium Command ⭐  *************/
-/**
- * Submits the installment calculation request to the backend API.
- * It sends the installment quantity and value as a POST request,
- * and updates the totalAmount with the calculated value received
- * from the API. In case of an error, it displays an alert with the
- * error message.
- */
-
-/******  5382371c-80c1-4d36-9383-c95c50785ab1  *******/	onSubmit() {
+	onSubmit() {
 		const requestData = {
 			installmentQuantity: this.installments,
 			installmentValue: this.installmentValue
