@@ -1,0 +1,98 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+	background-color: #c0d5f5  ;
+	font-family: Arial, sans-serif, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+	font-weight: bold;
+	color: #1c1c1c;
+	font-size: 1.5em;
+	margin: 10px 20px;
+}
+
+h1 {
+	font-weight: bold;
+	color: #1c1c1c;
+	font-size: 2em;
+	text-align: center;
+}
+
+input {
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 16px;
+	border: px solid #ccc;
+	border-radius: 4px;
+}
+
+button {
+	padding: 10px 15px;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+
+button.btn-primary {
+	width: 30%;
+	background-color: #007bff;
+	color: white;
+	border: none;
+}
+
+button.btn-primary:hover {
+	background-color: #0056b3;
+}
+
+button.btn-secondary {
+	background-color: #6c757d;
+	color: white;
+	border: none;
+}
+
+button.btn-secondary:hover {
+	background-color: #5a6268;
+}
+
+.button-group {
+	margin-top: 10px;
+	display: flex;
+	gap: 10px;
+}
+
+label {
+	margin-bottom: 5px;
+}
+
+.result {
+	margin-top: 20px;
+}
+
+.container-usuario {
+	max-width: 600px;
+	margin: 50px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+	background-color: #fdfdfd ;
+}
+
+.title-container {
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+.container-parcelas {
+	max-width: 600px;
+	margin: 50px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+	background-color: #fdfdfd ;
+}

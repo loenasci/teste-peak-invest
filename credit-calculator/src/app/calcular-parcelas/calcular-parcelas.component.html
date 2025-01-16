@@ -1,0 +1,23 @@
+<div class="container-parcelas">
+	<form (ngSubmit)="onSubmit()">
+		<h1 class="h3 mb-3 fw-normal">Calcular Parcelas</h1>
+		<div>
+			<label for="installments">Quantidade de Parcelas</label>
+			<input type="number" class="form-control" id="installments" [(ngModel)]="installments" name="parcelas" required />
+
+			<label for="installmentValue">Valor da Parcela</label>
+			<input type="number" class="form-control" id="installmentValue" [(ngModel)]="installmentValue" name="valor" required />
+		</div>
+
+		<!-- <button type="submit">Salvar</button> -->
+		<div class="button-group">
+			<button type="submit" class="btn-primary">Salvar</button>
+			<button type="button" class="btn-secondary" (click)="clearForm()">Limpar</button>
+		</div>
+	</form>
+
+	<div class="result">
+		<label>Valor com 5% de juros:</label>
+		<input type="text" class="form-control result-input" [value]="totalAmount | currency: 'BRL'" disabled />
+	</div>
+</div>

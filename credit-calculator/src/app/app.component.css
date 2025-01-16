@@ -1,0 +1,31 @@
+.navigation-buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 2rem;
+}
+
+.navigation-buttons button.active-button {
+	background-color: hsl(216, 98%, 52%);
+	transform: scale(1.05);
+	color: white;
+	font-weight: bold;
+	border: 2px solid #0b5ed7;
+
+}
+
+.navigation-buttons button {
+	background-color: #f8f9fa;
+	border: 1px solid #828282;
+	color: #373737;
+	padding: 10px 20px;
+	margin: 5px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.navigation-buttons button:hover {
+	background-color: #0b5ed7;
+	color: white;
+	/* Cor de fundo ao passar o mouse */
+}
