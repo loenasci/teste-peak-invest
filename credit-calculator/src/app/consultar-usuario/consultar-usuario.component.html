@@ -1,0 +1,16 @@
+<div class="container-usuario">
+	<h1 class="h3 mb-3 fw-normal">Consultar Usuário</h1>
+	<div>
+		<label for="id">Digite o ID do usuário (1-3):</label>
+		<input type="number" class="form-control result-input" [(ngModel)]="id" name="id" required />
+		<div class="button-group">
+			<button type="submit" class="btn-primary" (click)="onConsult()">Pesquisar</button>
+			<button type="button" class="btn-secondary" (click)="clearForm()">Limpar</button>
+		</div>
+	</div>
+
+	<div class="result">
+		<label>Nome do usuário solicitado:</label>
+		<input type="text" class="form-control result-input" [value]="name" disabled />
+	</div>
+</div>
