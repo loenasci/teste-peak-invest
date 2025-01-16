@@ -22,7 +22,7 @@ Após realizar o cálculo, o resultado é retornado para o front-end, que exibe 
 
 A tela de consulta permite ao usuário inserir um número de ID entre 1 e 3. Ao clicar no botão "Buscar", o front-end envia uma requisição **GET** para a API com o ID fornecido.
 
-O back-end realiza a busca pelo ID na **lista de KeyValuePair** e retorna o nome correspondente para o front-end. Exemplo de lista usada:
+O back-end realiza a busca pelo ID na **lista de KeyValuePair** e retorna o nome correspondente para o front-end. Exemplo de lista utilizada:
 
 ```csharp
 var lista = new List<KeyValuePair<int, string>>();
