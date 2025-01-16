@@ -1,6 +1,6 @@
 # Teste peak invest
 
-# Aplicação Calculadora de Crédito
+## Projeto Cadastro e Consulta
 
 ## Visão Geral
 
