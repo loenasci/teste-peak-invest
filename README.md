@@ -42,7 +42,3 @@ O front-end e o back-end se comunicam através de requisições HTTP consistente
 - Front-end: Angular 15
 - Back-end: .NET 6.0 C#
 - Formato de Dados: JSON e texto simples para comunicação entre a API e o front-end
-
-#### Rotas
-- O front-end: http://localhost:4200
-- API do back-end: http://localhost:5000
